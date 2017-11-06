@@ -1,4 +1,4 @@
-# Mapping from PulseTile UI framework (via Ripple-QEWD) to/from FHIR
+# Mapping from PulseTile UI framework (via Ripple-QEWD) to/from FHIR endpoints
 
 ## Running the Demo
 
