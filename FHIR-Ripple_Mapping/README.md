@@ -41,6 +41,9 @@ that the JSON editor is in Text view mode).  Save this file using the name of yo
 *Allergies_Ripple_to_FHIR.json*)
 
 
+![UI2FHIR](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/UI2FHIRtransform.PNG "UI 2 FHIR View")
+
+
 ## Mapping from FHIR to Ripple UI Object
 
 Now we'll do the reverse.
