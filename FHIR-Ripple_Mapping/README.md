@@ -9,19 +9,19 @@ Start the JSON Transformer Tool
 You may need to widen the browser panel to make the editor panels format correctly.
 
 Follow the instructions below for the 2 mapping demos which show an Allergy record being
-mapped between Ripple UI format and FHIR format
+mapped between PulseTile UI format and FHIR format
 
 
 ## Mapping from Ripple UI Object to FHIR
 
-1) Copy the file */src/allergiesRippleExample.json* and paste it into the left-hand panel
+1) Copy the file */src/allergies_PulseTileUI_Example.json* and paste it into the left-hand panel
 
 This is an example of the JSON that would be sent from the Ripple/PulseTile UI, containing an
 allergy record
 
-2) Copy the transform template file */src/allergiesToFHIR.json* and paste it into the middle pane
+2) Copy the transform template file */src/allergies_PulseTileUI_2_FHIR_Transform.json* and paste it into the middle pane
 
-This defines the transformations to convert the Ripple UI JSON into corresponding FHIR JSON format
+This defines the transformations to convert the Ripple/PulseTile UI JSON into corresponding FHIR JSON format
 
 3) Click the *Function* button at the top of the middle panel.  A dialogue will appear.
 
@@ -38,7 +38,7 @@ Ripple JSON object in the left-hand panel!
 
 8) When you're happy with the transformation, copy the template object from the middle pane (make sure
 that the JSON editor is in Text view mode).  Save this file using the name of your choice (eg
-*Allergies_Ripple_to_FHIR.json*)
+*Allergies_UI_to_FHIR_transform_v1.0.json*)
 
 
 ![UI2FHIR](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/UI2FHIRtransform.PNG "UI 2 FHIR View")
@@ -48,10 +48,10 @@ that the JSON editor is in Text view mode).  Save this file using the name of yo
 
 Now we'll do the reverse.
 
-1) Copy the file */src/allergiesFHIRExample.json* and paste it into the left-hand panel, completely
+1) Copy the file */src/allergies_FHIRExample.json* and paste it into the left-hand panel, completely
 replacing any previous content you had in that panel
 
-2) Copy the file */src/allergiesToRipple.json* template file and paste it into the middle panel,
+2) Copy the file */src/allergies_FHIR_2_PulseTileUI_transform.json* template file and paste it into the middle panel,
 completely replacing any previous content you had in that panel
 
 3) If you've already added the Helpers Function Object (see steps 3 - 6 above), proceed to step 4.  Otherwise
@@ -64,7 +64,7 @@ FHIR object in the left-hand panel!
 
 5) When you're happy with the transformation, copy the template object from the middle pane (make sure
 that the JSON editor is in Text view mode).  Save this file using the name of your choice (eg
-*Allergies_FHIR_to_Ripple.json*)
+*Allergies_FHIR_to_UI_transform_v1.0.json*)
 
 ![FHIR 2 UI View](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/FHIR2UItransform.PNG "FHIR 2 UI View")
 ![FHIR 2 UI Tree View](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/FHIR2UItransform_treeview.PNG "FHIR 2 UI Tree View")
@@ -73,16 +73,16 @@ that the JSON editor is in Text view mode).  Save this file using the name of yo
 
 To make use of the templates in Ripple, create one/two files for the FHIR resource, e.g. one for both GET and POST, or one for GET and one for POST.
 
-The GET-Transform file will use the FHIR to Ripple UI template that you created (eg *Allergies_FHIR_to_Ripple.json*)
+The GET-Transform file will use the FHIR to Ripple/PulseTile UI template that you created (eg *Allergies_FHIR_to_UI_transform_v1.0.json*)
 
-The POST-Transform file will use the Ripple UI to FHIR template that you created (eg *Allergies_Ripple_to_FHIR.json*)
+The POST-Transform file will use the Ripple/PulseTile UI to FHIR template that you created (eg *Allergies_UI_to_FHIR_transform_v1.0.json*)
 
-When the Ripple Middle Tier fetches an instance of, eg a FHIR Allergy record from the FHIR server, 
-it will apply the *Allergies_FHIR_to_Ripple.json* template, and return the transformed object to 
+When the Ripple QEWD Middle Tier fetches an instance of, eg a FHIR Allergy record from the FHIR server, 
+it will apply the *Allergies_FHIR_to_UI_transform_v1.0.json* template, and return the transformed object to 
 the Ripple UI - PulseTile will then display the Allergy record
 
 When a new Allergy record is POSTed from the Ripple UI, the middle tier will apply the
-*Allergies_Ripple_to_FHIR.json* template, and POST the Allergy FHIR JSON record to the remote server.
+*Allergies_UI_to_FHIR_transform_v1.0.json* template, and POST the Allergy FHIR JSON record to the remote server.
 
 
 
