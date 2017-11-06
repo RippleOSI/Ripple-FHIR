@@ -1,4 +1,4 @@
-# Mapping between Ripple and FHIR
+# Mapping from PulseTile UI framework (via Ripple-QEWD) to/from FHIR
 
 ## Running the Demo
 
@@ -12,7 +12,7 @@ Follow the instructions below for the 2 mapping demos which show an Allergy reco
 mapped between PulseTile UI format and FHIR format
 
 
-## Mapping from Ripple UI Object to FHIR
+## Mapping from Ripple/PulseTile UI Object to FHIR
 
 1) Copy the file */src/allergies_PulseTileUI_Example.json* and paste it into the left-hand panel
 
@@ -44,7 +44,7 @@ that the JSON editor is in Text view mode).  Save this file using the name of yo
 ![UI2FHIR](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/UI2FHIRtransform.PNG "UI 2 FHIR View")
 ![UI2FHIR Tree View](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/UI2FHIRtransform_treeView.PNG "UI 2 FHIR Tree View")
 
-## Mapping from FHIR to Ripple UI Object
+## Mapping from FHIR to Ripple/PulseTile UI Object
 
 Now we'll do the reverse.
 
