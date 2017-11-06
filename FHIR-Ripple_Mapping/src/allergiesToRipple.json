@@ -1,0 +1,15 @@
+{
+  "patientId": "=> getPatientId(entry[0].resource.patient.reference)",
+  "patientName": "{{entry[0].resource.patient.display}}",
+  "cause": "{{entry[0].resource.substance.text}}",
+  "causeCode": "SNOMED-CT",
+  "causeTerminology": "{{entry[0].resource.substance.coding[0].code}}",
+  "terminologyCode": "SNOMED-CT",
+  "reaction": "{{entry[0].resource.reaction[0].manifestation[0].text}}",
+  "author": "{{entry[0].resource.recorder.display}}",
+  "dateCreated": "=> getTime(entry[0].resource.recordedDate)",
+  "source": "ethercis",
+  "sourceId": "{{entry[0].resource.id}}",
+  "originalComposition": "",
+  "originalSource": ""
+}

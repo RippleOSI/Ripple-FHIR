@@ -1,0 +1,49 @@
+{
+  "resourceType": "Bundle",
+  "total": 1,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "text": {
+          "status": "<div><p><b>Allergy Intolerance</b></p><p><b>Patient</b>: Cox, Ivor</p><p><b>Allergy</b>: allergy to penicillin</p><p><b>Status</b>: Active</p><p><b>Reactions</b>: eruption due to drug</p><p><b>Onset</b>: 2016</p></div>"
+        },
+        "id": "cf-1490550608517",
+        "patient": {
+          "reference": "Patient/9999999000",
+          "display": "Cox, Ivor"
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "confirmed",
+        "substance": {
+          "text": "allergy to penicillin",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": 91936005
+            }
+          ]
+        },
+        "recordedDate": "2016-12-19T20:11:02.000Z",
+        "recorder": {
+          "display": "Dr Ian Shannon"
+        },
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "text": "eruption due to drug",
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "1806006"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "patientId": 9999999000,
+  "patientName": "Cox, Ivor",
+  "cause": "allergy to penicillin",
+  "causeCode": "SNOMED-CT",
+  "causeTerminology": 91936005,
+  "terminologyCode": "SNOMED-CT",
+  "reaction": "eruption due to drug",
+  "author": "Dr Ian Shannon",
+  "dateCreated": 1482178262000,
+  "source": "ethercis",
+  "sourceId": "28acc78c-aa44-4382-a3ca-c3e9f0462ff2",
+  "originalComposition": "",
+  "originalSource": ""
+}
