@@ -73,7 +73,7 @@ that the JSON editor is in Text view mode).  Save this file using the name of yo
 
 To make use of the templates in Ripple, create one/two files for the FHIR resource, e.g. one for both GET and POST, or one for GET and one for POST.
 
-The GET-Transform file will use the FHIR to Ripple UI template that you created (eg *Allergies)_FHIR_to_Ripple.json*)
+The GET-Transform file will use the FHIR to Ripple UI template that you created (eg *Allergies_FHIR_to_Ripple.json*)
 
 The POST-Transform file will use the Ripple UI to FHIR template that you created (eg *Allergies_Ripple_to_FHIR.json*)
 
