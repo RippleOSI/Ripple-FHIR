@@ -42,7 +42,7 @@ that the JSON editor is in Text view mode).  Save this file using the name of yo
 
 
 ![UI2FHIR](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/UI2FHIRtransform.PNG "UI 2 FHIR View")
-
+![UI2FHIR Tree View](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/UI2FHIRtransform_treeView.PNG "UI 2 FHIR Tree View")
 
 ## Mapping from FHIR to Ripple UI Object
 
@@ -66,6 +66,8 @@ FHIR object in the left-hand panel!
 that the JSON editor is in Text view mode).  Save this file using the name of your choice (eg
 *Allergies_FHIR_to_Ripple.json*)
 
+![FHIR 2 UI View](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/FHIR2UItransform.PNG "FHIR 2 UI View")
+![FHIR 2 UI Tree View](https://github.com/RippleOSI/Ripple-FHIR/blob/master/FHIR-Ripple_Mapping/img/FHIR2UItransform_treeview.PNG "FHIR 2 UI Tree View")
    
 ## Using the Transformation Mapping Templates
 
