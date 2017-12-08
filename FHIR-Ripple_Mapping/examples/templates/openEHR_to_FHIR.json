@@ -1,0 +1,60 @@
+{
+  "resourceType": "AllergyIntolerance",
+  "identifier": [
+    {
+      "system": "http://ripple.foundation/sourceId",
+      "value": "{{uid}}"
+    }
+  ],
+  "onset": "=> rippleDateTime(start_time, false)",
+  "recordedDate": "=> rippleDateTime(start_time, false)",
+  "recorder": {
+    "reference": "=> fhirReference(composer.code, 'Practitioner', false)",
+    "display": "{{composer.value}}"
+  },
+  "patient": {
+    "reference": "=> fhirReference(patientId, 'Patient', false)",
+    "display": "{{patientName}}"
+  },
+  "substance": {
+    "coding": [
+      {
+        "system": "=> fhirSnomed(allergies_and_adverse_reactions.adverse_reaction_risk.causative_agent.terminology, false)",
+        "code": "{{allergies_and_adverse_reactions.adverse_reaction_risk.causative_agent.code}}",
+        "display": "{{allergies_and_adverse_reactions.adverse_reaction_risk.causative_agent.value}}"
+      }
+    ]
+  },
+  "status": "active",
+  "type": "allergy",
+  "category": "other",
+  "reaction": [
+    {
+      "substance": {
+        "coding": [
+          {
+            "system": "=> fhirSnomed(allergies_and_adverse_reactions.adverse_reaction_risk.causative_agent.terminology, false)",
+            "code": "{{allergies_and_adverse_reactions.adverse_reaction_risk.causative_agent.code}}",
+            "display": "{{allergies_and_adverse_reactions.adverse_reaction_risk.causative_agent.value}}"
+          }
+        ],
+        "text": "{{allergies_and_adverse_reactions.adverse_reaction_risk.causative_agent.value}}"
+      },
+      "certainty": "confirmed",
+      "manifestation": [
+        {
+          "coding": [
+            {
+              "system": "=> fhirSnomed(allergies_and_adverse_reactions.adverse_reaction_risk.reaction_details.manifestation.terminology, false)",
+              "code": "=> either(allergies_and_adverse_reactions.adverse_reaction_risk.reaction_details.manifestation.code, '<!delete>')",
+              "display": "{{allergies_and_adverse_reactions.adverse_reaction_risk.reaction_details.manifestation.value}}"
+            }
+          ],
+          "text": "{{allergies_and_adverse_reactions.adverse_reaction_risk.reaction_details.manifestation.value}}"
+        }
+      ],
+      "description": "{{allergies_and_adverse_reactions.adverse_reaction_risk.reaction_details.manifestation.value}}"
+    }
+  ],
+  "note": "{{allergies_and_adverse_reactions.adverse_reaction_risk.reaction_details.comment.value}}"
+}
