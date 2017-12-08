@@ -1,4 +1,4 @@
-## Examples of JSON output by QEWD  - for Ripple Stack 
+## Examples of JSON output by QEWD-Jumper  - for Ripple OSI Stack 
 
 
 UI JSON example
