@@ -1,5 +1,6 @@
 ## Examples of JSON output by QEWD-Jumper  - for Ripple OSI Stack 
 
+See JSON API output examples for these 3 
 
 UI JSON example
 
@@ -9,3 +10,4 @@ FHIR JSON example
 
 openEHR JSON example
 
+See in the templates folder the Qewd-Jumper JSON templates for the mapping/manipulation 
