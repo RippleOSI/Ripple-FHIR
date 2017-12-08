@@ -1,0 +1,18 @@
+"Top-Level AQL" example:
+
+select a as data from EHR e[ehr_id/value='dabcbf61-94bb-45df-a472-9c7a489a200d'] contains COMPOSITION a [openEHR-EHR-COMPOSITION.adverse_reaction_list.v1] where a/name/value='Adverse reaction list’
+
+
+Constructed dynamically:
+
+select a as data from EHR e[ehr_id/value='{{ehrId}}'] contains COMPOSITION a [{{compostion_name}}] where a/name/value='{{template_name}}’
+
+compostion_name and template_name come from the WebTemplate for the specified OpenEHR Template
+
+The data retrieved by this AQL is mapped into the "OpenEHR Raw JSON" format using a set of lookup tables that are stored in the QEWD persistent JSON / graph database (which would be pretty difficult to emulate with any other technology, and is very fast and efficient).  These tables are built/maintained automatically by QEWD-Jumper during the configuration script execution.
+
+
+
+
+
+
