@@ -1,0 +1,465 @@
+{
+    "resourceType": "Bundle",
+    "total": 10,
+    "entry": [{
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "71358a66-9f77-4234-af58-1cee6a93f721::hcbox.oprn.ehrscape.com::1"
+        }],
+        "onset": "2016-12-19T22:11:02.518Z",
+        "recordedDate": "2016-12-19T22:11:02.518Z",
+        "recorder": {
+            "reference": "Practitioner/1",
+            "display": "Dr Ian Shannon"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "system": "http://snomed.info/sct",
+                "code": "304270095",
+                "display": "Erythromycin"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "304270095",
+                    "display": "Erythromycin"
+                }],
+                "text": "Erythromycin"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "422400008",
+                    "display": "Vomiting"
+                }],
+                "text": "Vomiting"
+            }],
+            "description": "Vomiting"
+        }],
+        "note": "Reported by patient's carer"
+    }, {
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "e06b6760-8efe-4b40-840a-3f71de7be6ed::hcbox.oprn.ehrscape.com::1"
+        }],
+        "onset": "2016-12-19T22:11:02.518Z",
+        "recordedDate": "2016-12-19T22:11:02.518Z",
+        "recorder": {
+            "reference": "Practitioner/1",
+            "display": "Dr Ian Shannon"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "system": "http://snomed.info/sct",
+                "code": "304270095",
+                "display": "Erythromycin"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "304270095",
+                    "display": "Erythromycin"
+                }],
+                "text": "Erythromycin"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "422400008",
+                    "display": "Vomiting"
+                }],
+                "text": "Vomiting"
+            }],
+            "description": "Vomiting"
+        }],
+        "note": "Reported by patient's carer"
+    }, {
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "9809c9bd-daca-4a6d-8a7f-e78fc947af8c::hcbox.oprn.ehrscape.com::2"
+        }],
+        "onset": "2016-12-19T22:11:02.518Z",
+        "recordedDate": "2016-12-19T22:11:02.518Z",
+        "recorder": {
+            "reference": "Practitioner/1",
+            "display": "Dr Ian Shannon"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "system": "http://snomed.info/sct",
+                "code": "91937001",
+                "display": "allergy to seafood"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "91937001",
+                    "display": "allergy to seafood"
+                }],
+                "text": "allergy to seafood"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "402388007",
+                    "display": "allergic angio-oedema due to ingested food"
+                }],
+                "text": "allergic angio-oedema due to ingested food"
+            }],
+            "description": "allergic angio-oedema due to ingested food"
+        }],
+        "note": "observed by clinician"
+    }, {
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "91a65e46-e6f3-44a6-bfc8-a4fd6c45f815::hcbox.oprn.ehrscape.com::2"
+        }],
+        "onset": "2016-12-19T22:11:02.518Z",
+        "recordedDate": "2016-12-19T22:11:02.518Z",
+        "recorder": {
+            "reference": "Practitioner/1",
+            "display": "Dr Ian Shannon"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "system": "http://snomed.info/sct",
+                "code": "91936005",
+                "display": "allergy to penicillin"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "91936005",
+                    "display": "allergy to penicillin"
+                }],
+                "text": "allergy to penicillin"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "28926001",
+                    "display": "eruption due to drug"
+                }],
+                "text": "eruption due to drug"
+            }],
+            "description": "eruption due to drug"
+        }],
+        "note": "History unclear"
+    }, {
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "9d552254-731e-414d-a5dd-6a5991a55cfb::hcbox.oprn.ehrscape.com::1"
+        }],
+        "onset": "2016-12-19T22:11:02.518Z",
+        "recordedDate": "2016-12-19T22:11:02.518Z",
+        "recorder": {
+            "reference": "Practitioner/1",
+            "display": "Dr Ian Shannon"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "system": "http://snomed.info/sct",
+                "code": "91937001",
+                "display": "allergy to seafood"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "91937001",
+                    "display": "allergy to seafood"
+                }],
+                "text": "allergy to seafood"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "402388007",
+                    "display": "allergic angio-oedema due to ingested food"
+                }],
+                "text": "allergic angio-oedema due to ingested food"
+            }],
+            "description": "allergic angio-oedema due to ingested food"
+        }],
+        "note": "observed by clinician"
+    }, {
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "66e07c06-411c-4b1e-99c2-5a21ae9f2a5a::hcbox.oprn.ehrscape.com::1"
+        }],
+        "onset": "2016-12-19T22:11:02.518Z",
+        "recordedDate": "2016-12-19T22:11:02.518Z",
+        "recorder": {
+            "reference": "Practitioner/1",
+            "display": "Dr Ian Shannon"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "system": "http://snomed.info/sct",
+                "code": "304270095",
+                "display": "Erythromycin"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "304270095",
+                    "display": "Erythromycin"
+                }],
+                "text": "Erythromycin"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "422400008",
+                    "display": "Vomiting"
+                }],
+                "text": "Vomiting"
+            }],
+            "description": "Vomiting"
+        }],
+        "note": "Reported by patient's carer"
+    }, {
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "6fe4570a-8e49-4a37-9905-26f4a57368b3::hcbox.oprn.ehrscape.com::3"
+        }],
+        "onset": "2015-12-19T22:11:02.518Z",
+        "recordedDate": "2015-12-19T22:11:02.518Z",
+        "recorder": {
+            "reference": "Practitioner/2",
+            "display": "Dr George Crooks"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "code": "",
+                "display": "Grass pollen allergy with 2 manifestations"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "code": "",
+                    "display": "Grass pollen allergy with 2 manifestations"
+                }],
+                "text": "Grass pollen allergy with 2 manifestations"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "display": "sneezing"
+                }],
+                "text": "sneezing"
+            }],
+            "description": "sneezing"
+        }],
+        "note": "only in spring"
+    }, {
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "f3c55ce4-9fcc-4bad-b772-4293242fd233::hcbox.oprn.ehrscape.com::2"
+        }],
+        "onset": "2015-12-19T22:11:02.518Z",
+        "recordedDate": "2015-12-19T22:11:02.518Z",
+        "recorder": {
+            "reference": "Practitioner/2",
+            "display": "Dr George Crooks"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "code": "",
+                "display": "Grass pollen allergy"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "code": "",
+                    "display": "Grass pollen allergy"
+                }],
+                "text": "Grass pollen allergy"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "display": "sneezing"
+                }],
+                "text": "sneezing"
+            }],
+            "description": "sneezing"
+        }],
+        "note": "only in spring"
+    }, {
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "a066bab0-07b8-4020-bd7e-d69315016240::hcbox.oprn.ehrscape.com::1"
+        }],
+        "onset": "2017-12-07T14:22:08.000Z",
+        "recordedDate": "2017-12-07T14:22:08.000Z",
+        "recorder": {
+            "reference": "Practitioner/3",
+            "display": "Dr Tony Shannon"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "system": "http://snomed.info/sct",
+                "code": "1239085",
+                "display": "Rob Test Allergy"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "1239085",
+                    "display": "Rob Test Allergy"
+                }],
+                "text": "Rob Test Allergy"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "display": "Sneezing"
+                }],
+                "text": "Sneezing"
+            }],
+            "description": "Sneezing"
+        }],
+        "note": ""
+    }, {
+        "resourceType": "AllergyIntolerance",
+        "identifier": [{
+            "system": "http://ripple.foundation/sourceId",
+            "value": "03186bc1-1d49-4952-891a-954fac1529dc::hcbox.oprn.ehrscape.com::1"
+        }],
+        "onset": "2016-12-19T22:11:02.518Z",
+        "recordedDate": "2016-12-19T22:11:02.518Z",
+        "recorder": {
+            "reference": "Practitioner/6",
+            "display": "Dr Ian Smith"
+        },
+        "patient": {
+            "reference": "Patient/9999999000",
+            "display": "Ivor Cox"
+        },
+        "substance": {
+            "coding": [{
+                "system": "http://snomed.info/sct",
+                "code": "304270095",
+                "display": "Erythromycin"
+            }]
+        },
+        "status": "active",
+        "type": "allergy",
+        "category": "other",
+        "reaction": [{
+            "substance": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "304270095",
+                    "display": "Erythromycin"
+                }],
+                "text": "Erythromycin"
+            },
+            "certainty": "confirmed",
+            "manifestation": [{
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "422400008",
+                    "display": "Vomiting"
+                }],
+                "text": "Vomiting"
+            }],
+            "description": "Vomiting"
+        }],
+        "note": "Reported by patient's carer"
+    }]
+}

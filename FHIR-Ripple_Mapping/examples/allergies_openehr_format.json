@@ -1,0 +1,333 @@
+[{
+    "uid": "71358a66-9f77-4234-af58-1cee6a93f721::hcbox.oprn.ehrscape.com::1",
+    "composer": {
+        "value": "Dr Ian Shannon",
+        "code": 1
+    },
+    "start_time": "2016-12-20T00:11:02.518+02:00",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "causative_agent": {
+                "value": "Erythromycin",
+                "code": "304270095",
+                "terminology": "SNOMED-CT"
+            },
+            "reaction_details": {
+                "manifestation": {
+                    "value": "Vomiting",
+                    "code": "422400008",
+                    "terminology": "SNOMED-CT"
+                },
+                "comment": {
+                    "value": "Reported by patient's carer"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}, {
+    "uid": "e06b6760-8efe-4b40-840a-3f71de7be6ed::hcbox.oprn.ehrscape.com::1",
+    "composer": {
+        "value": "Dr Ian Shannon",
+        "code": 1
+    },
+    "start_time": "2016-12-20T00:11:02.518+02:00",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "causative_agent": {
+                "value": "Erythromycin",
+                "code": "304270095",
+                "terminology": "SNOMED-CT"
+            },
+            "reaction_details": {
+                "manifestation": {
+                    "value": "Vomiting",
+                    "code": "422400008",
+                    "terminology": "SNOMED-CT"
+                },
+                "comment": {
+                    "value": "Reported by patient's carer"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}, {
+    "uid": "9809c9bd-daca-4a6d-8a7f-e78fc947af8c::hcbox.oprn.ehrscape.com::2",
+    "composer": {
+        "value": "Dr Ian Shannon",
+        "code": 1
+    },
+    "start_time": "2016-12-20T00:11:02.518+02:00",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "causative_agent": {
+                "value": "allergy to seafood",
+                "code": "91937001",
+                "terminology": "SNOMED-CT"
+            },
+            "reaction_details": {
+                "manifestation": {
+                    "value": "allergic angio-oedema due to ingested food",
+                    "code": "402388007",
+                    "terminology": "SNOMED-CT"
+                },
+                "comment": {
+                    "value": "observed by clinician"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}, {
+    "uid": "91a65e46-e6f3-44a6-bfc8-a4fd6c45f815::hcbox.oprn.ehrscape.com::2",
+    "composer": {
+        "value": "Dr Ian Shannon",
+        "code": 1
+    },
+    "start_time": "2016-12-20T00:11:02.518+02:00",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "causative_agent": {
+                "value": "allergy to penicillin",
+                "code": "91936005",
+                "terminology": "SNOMED-CT"
+            },
+            "reaction_details": {
+                "manifestation": {
+                    "value": "eruption due to drug",
+                    "code": "28926001",
+                    "terminology": "SNOMED-CT"
+                },
+                "comment": {
+                    "value": "History unclear"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}, {
+    "uid": "9d552254-731e-414d-a5dd-6a5991a55cfb::hcbox.oprn.ehrscape.com::1",
+    "composer": {
+        "value": "Dr Ian Shannon",
+        "code": 1
+    },
+    "start_time": "2016-12-20T00:11:02.518+02:00",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "causative_agent": {
+                "value": "allergy to seafood",
+                "code": "91937001",
+                "terminology": "SNOMED-CT"
+            },
+            "reaction_details": {
+                "manifestation": {
+                    "value": "allergic angio-oedema due to ingested food",
+                    "code": "402388007",
+                    "terminology": "SNOMED-CT"
+                },
+                "comment": {
+                    "value": "observed by clinician"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}, {
+    "uid": "66e07c06-411c-4b1e-99c2-5a21ae9f2a5a::hcbox.oprn.ehrscape.com::1",
+    "composer": {
+        "value": "Dr Ian Shannon",
+        "code": 1
+    },
+    "start_time": "2016-12-20T00:11:02.518+02:00",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "causative_agent": {
+                "value": "Erythromycin",
+                "code": "304270095",
+                "terminology": "SNOMED-CT"
+            },
+            "reaction_details": {
+                "manifestation": {
+                    "value": "Vomiting",
+                    "code": "422400008",
+                    "terminology": "SNOMED-CT"
+                },
+                "comment": {
+                    "value": "Reported by patient's carer"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}, {
+    "uid": "6fe4570a-8e49-4a37-9905-26f4a57368b3::hcbox.oprn.ehrscape.com::3",
+    "composer": {
+        "value": "Dr George Crooks",
+        "code": 2
+    },
+    "start_time": "2015-12-20T00:11:02.518+02:00",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "causative_agent": {
+                "value": "Grass pollen allergy with 2 manifestations"
+            },
+            "reaction_details": {
+                "manifestation": {
+                    "value": "sneezing"
+                },
+                "comment": {
+                    "value": "only in spring"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}, {
+    "uid": "f3c55ce4-9fcc-4bad-b772-4293242fd233::hcbox.oprn.ehrscape.com::2",
+    "composer": {
+        "value": "Dr George Crooks",
+        "code": 2
+    },
+    "start_time": "2015-12-20T00:11:02.518+02:00",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "causative_agent": {
+                "value": "Grass pollen allergy"
+            },
+            "reaction_details": {
+                "manifestation": {
+                    "value": "sneezing"
+                },
+                "comment": {
+                    "value": "only in spring"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}, {
+    "uid": "a066bab0-07b8-4020-bd7e-d69315016240::hcbox.oprn.ehrscape.com::1",
+    "composer": {
+        "value": "Dr Tony Shannon",
+        "code": 3
+    },
+    "start_time": "2017-12-07T14:22:08Z",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "causative_agent": {
+                "value": "Rob Test Allergy",
+                "code": "1239085",
+                "terminology": "SNOMED-CT"
+            },
+            "reaction_details": {
+                "manifestation": {
+                    "value": "Sneezing"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}, {
+    "uid": "03186bc1-1d49-4952-891a-954fac1529dc::hcbox.oprn.ehrscape.com::1",
+    "composer": {
+        "value": "Dr Ian Smith",
+        "code": 6
+    },
+    "start_time": "2016-12-20T00:11:02.518+02:00",
+    "allergies_and_adverse_reactions": {
+        "adverse_reaction_risk": {
+            "last_updated": {
+                "value": "2017-12-07T15:47:43.073+01:00"
+            },
+            "causative_agent": {
+                "value": "Erythromycin",
+                "code": "304270095",
+                "terminology": "SNOMED-CT"
+            },
+            "status": {
+                "value": "Suspected",
+                "code": "at0127",
+                "terminology": "local"
+            },
+            "criticality": {
+                "value": "Indeterminate",
+                "code": "at0124",
+                "terminology": "local"
+            },
+            "category": {
+                "value": "Medication",
+                "code": "at0122",
+                "terminology": "local"
+            },
+            "onset_of_last_reaction": {
+                "value": "2017-12-07T15:47:43.072+01:00"
+            },
+            "reaction_mechanism": {
+                "value": "Indeterminate",
+                "code": "at0126",
+                "terminology": "local"
+            },
+            "comment": {
+                "value": "Not observed/confirmed but seems likely"
+            },
+            "reaction_details": {
+                "specific_substance": {
+                    "value": "erythromycin 250mg gastro-resistant tablets",
+                    "code": "324209006",
+                    "terminology": "SNOMED-CT"
+                },
+                "certainty": {
+                    "value": "Confirmed",
+                    "code": "at0118",
+                    "terminology": "local"
+                },
+                "manifestation": {
+                    "value": "Vomiting",
+                    "code": "422400008",
+                    "terminology": "SNOMED-CT"
+                },
+                "reaction_description": {
+                    "value": "Vomited for several hours, no evident blood"
+                },
+                "onset_of_reaction": {
+                    "value": "2017-12-07T00:00:00+01:00"
+                },
+                "severity": {
+                    "value": "Moderate",
+                    "code": "at0092",
+                    "terminology": "local"
+                },
+                "comment": {
+                    "value": "Reported by patient's carer"
+                },
+                "route_of_exposure": {
+                    "value": "Oral route",
+                    "code": "26643006",
+                    "terminology": "SNOMED-CT"
+                }
+            }
+        }
+    },
+    "host": "marand",
+    "patientId": "9999999000",
+    "patientName": "Ivor Cox"
+}]

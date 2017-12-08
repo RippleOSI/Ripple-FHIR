@@ -1,0 +1,111 @@
+[{
+    "cause": "Erythromycin",
+    "causeCode": "304270095",
+    "causeTerminology": "SNOMED-CT",
+    "terminologyCode": "422400008",
+    "reaction": "Vomiting",
+    "author": "Dr Ian Shannon",
+    "dateCreated": 1482185462518,
+    "source": "marand",
+    "sourceId": "71358a66-9f77-4234-af58-1cee6a93f721::hcbox.oprn.ehrscape.com::1",
+    "patientId": "9999999000"
+}, {
+    "cause": "Erythromycin",
+    "causeCode": "304270095",
+    "causeTerminology": "SNOMED-CT",
+    "terminologyCode": "422400008",
+    "reaction": "Vomiting",
+    "author": "Dr Ian Shannon",
+    "dateCreated": 1482185462518,
+    "source": "marand",
+    "sourceId": "e06b6760-8efe-4b40-840a-3f71de7be6ed::hcbox.oprn.ehrscape.com::1",
+    "patientId": "9999999000"
+}, {
+    "cause": "allergy to seafood",
+    "causeCode": "91937001",
+    "causeTerminology": "SNOMED-CT",
+    "terminologyCode": "402388007",
+    "reaction": "allergic angio-oedema due to ingested food",
+    "author": "Dr Ian Shannon",
+    "dateCreated": 1482185462518,
+    "source": "marand",
+    "sourceId": "9809c9bd-daca-4a6d-8a7f-e78fc947af8c::hcbox.oprn.ehrscape.com::2",
+    "patientId": "9999999000"
+}, {
+    "cause": "allergy to penicillin",
+    "causeCode": "91936005",
+    "causeTerminology": "SNOMED-CT",
+    "terminologyCode": "28926001",
+    "reaction": "eruption due to drug",
+    "author": "Dr Ian Shannon",
+    "dateCreated": 1482185462518,
+    "source": "marand",
+    "sourceId": "91a65e46-e6f3-44a6-bfc8-a4fd6c45f815::hcbox.oprn.ehrscape.com::2",
+    "patientId": "9999999000"
+}, {
+    "cause": "allergy to seafood",
+    "causeCode": "91937001",
+    "causeTerminology": "SNOMED-CT",
+    "terminologyCode": "402388007",
+    "reaction": "allergic angio-oedema due to ingested food",
+    "author": "Dr Ian Shannon",
+    "dateCreated": 1482185462518,
+    "source": "marand",
+    "sourceId": "9d552254-731e-414d-a5dd-6a5991a55cfb::hcbox.oprn.ehrscape.com::1",
+    "patientId": "9999999000"
+}, {
+    "cause": "Erythromycin",
+    "causeCode": "304270095",
+    "causeTerminology": "SNOMED-CT",
+    "terminologyCode": "422400008",
+    "reaction": "Vomiting",
+    "author": "Dr Ian Shannon",
+    "dateCreated": 1482185462518,
+    "source": "marand",
+    "sourceId": "66e07c06-411c-4b1e-99c2-5a21ae9f2a5a::hcbox.oprn.ehrscape.com::1",
+    "patientId": "9999999000"
+}, {
+    "cause": "Grass pollen allergy with 2 manifestations",
+    "causeCode": "",
+    "causeTerminology": "",
+    "terminologyCode": "",
+    "reaction": "sneezing",
+    "author": "Dr George Crooks",
+    "dateCreated": 1450563062518,
+    "source": "marand",
+    "sourceId": "6fe4570a-8e49-4a37-9905-26f4a57368b3::hcbox.oprn.ehrscape.com::3",
+    "patientId": "9999999000"
+}, {
+    "cause": "Grass pollen allergy",
+    "causeCode": "",
+    "causeTerminology": "",
+    "terminologyCode": "",
+    "reaction": "sneezing",
+    "author": "Dr George Crooks",
+    "dateCreated": 1450563062518,
+    "source": "marand",
+    "sourceId": "f3c55ce4-9fcc-4bad-b772-4293242fd233::hcbox.oprn.ehrscape.com::2",
+    "patientId": "9999999000"
+}, {
+    "cause": "Rob Test Allergy",
+    "causeCode": "1239085",
+    "causeTerminology": "SNOMED-CT",
+    "terminologyCode": "",
+    "reaction": "Sneezing",
+    "author": "Dr Tony Shannon",
+    "dateCreated": 1512656528000,
+    "source": "marand",
+    "sourceId": "a066bab0-07b8-4020-bd7e-d69315016240::hcbox.oprn.ehrscape.com::1",
+    "patientId": "9999999000"
+}, {
+    "cause": "Erythromycin",
+    "causeCode": "304270095",
+    "causeTerminology": "SNOMED-CT",
+    "terminologyCode": "422400008",
+    "reaction": "Vomiting",
+    "author": "Dr Ian Smith",
+    "dateCreated": 1482185462518,
+    "source": "marand",
+    "sourceId": "03186bc1-1d49-4952-891a-954fac1529dc::hcbox.oprn.ehrscape.com::1",
+    "patientId": "9999999000"
+}]
