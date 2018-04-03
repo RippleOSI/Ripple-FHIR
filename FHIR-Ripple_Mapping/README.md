@@ -85,4 +85,7 @@ When a new Allergy record is POSTed from the Ripple UI, the middle tier will app
 *Allergies_UI_to_FHIR_transform_v1.0.json* template, and POST the Allergy FHIR JSON record to the remote server.
 
 
+## See more examples of UI /FHIR/ openEHR transformation in the /examples/templates folder
+
+https://github.com/RippleOSI/Ripple-FHIR/tree/master/FHIR-Ripple_Mapping/examples/templates
 
